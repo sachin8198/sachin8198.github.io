@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Sachin Portfolio</title>
+</head>
+<body>
+    <div class="container navbar">
+        <header>
+            <div class="lgo">
+                <h1>Sachin</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#about">about me</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#work">my work</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="container main-info-section">
+        <div class="text">
+            <h1>
+                <span>H</span>
+                <span class="m-left">i</span>
+                <span class="m-left">,</span>
+                <br>
+                <span>I</span>
+                <span class="m-left">'</span>
+                <span class="m-left">m</span>
+                <span class=" name">S</span>
+                <span class="m-left name">a</span>
+                <span class="m-left name">c</span>
+                <span class="m-left name">h</span>
+                <span class="m-left name">i</span>
+                <span class="m-left name">n</span>
+                <span class="m-left name">,</span>
+                <br>
+                <span>W</span>
+                <span class="m-left">e</span>
+                <span class="m-left">b</span>
+                <span>D</span>
+                <span class="m-left">e</span>
+                <span class="m-left">v</span>
+                <span class="m-left">e</span>
+                <span class="m-left">l</span>
+                <span class="m-left">o</span>
+                <span class="m-left">p</span>
+                <span class="m-left">e</span>
+                <span class="m-left">r</span>
+                <span class="m-left">.</span>
+            </h1>
+            <p>HTML5 / CSS /Javscript / React</p>
+            <a href="#contact">contact me</a>
+        </div>
+
+        <!-- Profile image -->
+        <div class="profile-img">
+            <img src="img/profile-img.jpg" alt="profile-image">
+        </div>
+    </div>
+
+    <div class="container about" id="about">
+        <h1>About</h1>
+        <div class="about-me-info">
+            <p>Lorem ipsum dolor sit amet consectetur,
+                 adipisicing elit. Fuga, quibusdam!</p>
+            <p>Lorem ipsum dolor
+             sit amet consectetur adipisicing elit. Excepturi, aliquid?</p>
+             <p>Lorem ipsum dolor,
+                  sit amet consectetur adipisicing elit. Rerum, excepturi.</p>
+        </div>
+        <img src="img/profile-img.jpg" alt="img">
+    </div>
+
+    <div class="container skills" id="skills">
+        <h1>Skills</h1>
+        <p class="skills-info">Lorem ipsum dolor sit amet consectetur adipisicing
+             elit. Enim, blanditiis quis! Mollitia deleniti praesentium facere similique
+              hic, minus sunt illo!</p>
+        <div class="html">
+            <div class="tag-html">
+                <p>HTML</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-html"></div>
+            </div>
+        </div>
+        <div class="html">
+            <div class="tag-css">
+                <p>HTML</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-css"></div>
+            </div>
+        </div>
+        <div class="html">
+            <div class="tag-javascript">
+                <p>HTML</p>
+            </div>
+            <div class="progressbar">
+                <div class="bar-javascript"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- work -->
+    <div class="container work">
+        <h1>Work</h1>
+        <div class="work-category">
+            <button id="designing" class="active" onclick="showRequiredCategory(this)">Web Designing</button>
+            <button id="animation"  >Web Animation</button>
+            <button id="project">React projects</button>
+        </div>
+
+        <div class="category-designing showCategory">
+            <a href=""><img src="" alt="img"></a>
+            <a href=""><img src="" alt="img"></a>
+            <a href=""><img src="" alt="img"></a>
+            <a href=""><img src="" alt="img"></a>
+            <a href=""><img src="" alt="img"></a>
+        </div>
+        <div class="category-designing hideCategory">
+            <a href=""><img src="" alt="img"></a>
+            <a href=""><img src="" alt="img"></a>
+            <a href=""><img src="" alt="img"></a>
+        </div>
+        <div class="category-designing hideCategory">
+            <a href=""><img src="" alt="img"></a>
+            <a href=""><img src="" alt="img"></a>
+            <a href=""><img src="" alt="img"></a>
+            <a href=""><img src="" alt="img"></a>
+        </div>
+    </div>
+
+    <!-- contact section -->
+    <div class="container contact" id="contact">
+        <h1>Contact</h1>
+        <form>
+            <input type="text" name="name" placeholder="Full Name">
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="singhsachin8198@gmail.com" disabled>
+            <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
+            <input type="submit">
+        </form>
+    </div>
+    <!-- End of contact section -->
+
+    <!-- footer section -->
+    <hr>
+    <p>2020 Copyright. All Right Reserves.</p>
+    <!-- End of footer section -->
+</body>
+</html>
