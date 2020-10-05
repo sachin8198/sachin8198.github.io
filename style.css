@@ -23,6 +23,10 @@ nav ul, .main-info-section, .work-category{
     justify-content: space-between;
 }
 
+.text{
+    margin-left: 200px;
+}
+
 .header{
     display: flex;
     flex-wrap: wrap;
@@ -129,20 +133,26 @@ span.m-left{
 .profile-img img {
     width: 450px;
     margin-top: 50px;
+    margin-right: 100px;
     box-shadow: 30px 20px 50px white;
     border-radius: 15%;
 }
 
 .about{
-    height: 100vh;
+    height: 40vh;
     margin-top: 100px;
 }
 
 .about h1,
 .work h1{
+    text-align: left;
     font-size: 10rem;
     z-index: 0;
     opacity: .1;
+    
+}
+.work h1{
+    padding: 80px 0;
 }
 
 .about-me-info{
@@ -176,15 +186,18 @@ span.m-left{
     transform: translateX(calc(-100%+100px));
 }
 
-.skills{
-    height: 100vh;
+.skills h1{
+    padding: 150px 0;
 }
 
 .skills h1,
 .contact h1{
-    text-align: right;
+    text-align: left;
     font-size: 10rem;
     opacity: .1;
+}
+.contact h1{
+    text-align: center;
 }
 
 .skills-info{
@@ -331,16 +344,23 @@ footer p{
     background-color: black;
 }
 
-/* .card-body > *{
-    padding: 20px;
-    margin: 20px;
-    
-} */
-
 .card-body p{
     font-size: 15px;
     margin: 5px;
     color: white;
     border: 1px solid blueviolet;
     padding: 3px;
+}
+.contribution-calender {
+    border: 1px solid black;
+    border-radius: 20%;
+}
+
+.resume{
+    border: 3px solid black;
+    color: burlywood;
+    padding: 15px;
+    margin: 20px;
+    font-size: large;
+    box-shadow: 10px 10px 15px gray;
 }
