@@ -129,6 +129,8 @@ span.m-left{
 .profile-img img {
     width: 450px;
     margin-top: 50px;
+    box-shadow: 30px 20px 50px white;
+    border-radius: 15%;
 }
 
 .about{
@@ -321,4 +323,24 @@ footer p{
     color: #707070;
     font-size: 1.2rem;
     padding: 30px 0;
+}
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+/* .card-body > *{
+    padding: 20px;
+    margin: 20px;
+    
+} */
+
+.card-body p{
+    font-size: 15px;
+    margin: 5px;
+    color: white;
+    border: 1px solid blueviolet;
+    padding: 3px;
 }
